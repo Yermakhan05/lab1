@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.HomeFragment"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addStory"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add story"/>
+    <Button
+        android:id="@+id/toPlayMusic"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Play music"/>
+    <Button
+        android:id="@+id/checkBroadcast"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Broadcast"/>
+    <Button
+        android:id="@+id/calendarPage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Calendar"/>
+</LinearLayout>
